@@ -1,11 +1,11 @@
 // ERRORR
-// 1. error 1 koma hilang antara index 1 dan index 2 pada data json rawData
-// 2. error 2 kurang 1 kutip penutup pada data json rawData di data  attribute: "case.life[0].product[0].benefit[10].amount,
-// 3, error 3 tidak ada value(value kosong) pada data valueAsString: dengan "attribute": "case.life[0].product[0].benefit[12].amount",
-// 4. error 4 tidak ada index yg dituju yaitu index i hasil dari loop var cleanA dari function compareDeep2
-// 5. error 5 kelebihan huruf s pada variabel tmpStrb di function compareDeep2
-// 6. error 6 tambahkan array tutup pada regexj var cleanA function compareDeep2 untuk mendapatkan []
-// 7. error 7 tambahkan array tutup pada regexj var cleanB function compareDeep2 untuk mendapatkan []
+// 1. error 1 LINE 19 koma hilang antara index 1 dan index 2 pada data json rawData
+// 2. error 2 LINE 435 kurang 1 kutip penutup pada data json rawData di data  attribute: "case.life[0].product[0].benefit[10].amount,
+// 3, error 3 LINE 444 tidak ada value(value kosong) pada data valueAsString: dengan "attribute": "case.life[0].product[0].benefit[12].amount",
+// 4. error 4 LINE 561 tidak ada index yg dituju yaitu index i hasil dari loop var cleanA dari function compareDeep2
+// 5. error 5 LINE 540 kelebihan huruf s pada variabel tmpStrb di function compareDeep2
+// 6. error 6 LINE 545 tambahkan array tutup pada regexj var cleanA function compareDeep2 untuk mendapatkan []
+// 7. error 7 LINE 548 tambahkan array tutup pada regexj var cleanB function compareDeep2 untuk mendapatkan []
 
 var rawData = {
   attributes: [
