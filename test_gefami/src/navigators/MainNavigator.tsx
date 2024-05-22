@@ -1,7 +1,7 @@
 import {DefaultTheme, NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import Beranda from '@screens/Beranda/Beranda';
-import Hashing from '@screens/Hashing_SHA256/sha256';
+import HashingnameScreen from '@screens/Hashing_SHA256/HashingnameScreen';
 import HitAPI from '@screens/HitAPI/HitAPI';
 import Home from '@screens/Home/Home';
 import Login from '@screens/Login/Login';
@@ -11,8 +11,8 @@ export type NavigatorParamList = {
   Home: undefined;
   Login: undefined;
   HitAPI: undefined;
-  Hashing: undefined;
   Beranda: undefined;
+  HashingnameScreen: undefined;
 };
 
 const Stack = createNativeStackNavigator<NavigatorParamList>();
@@ -41,8 +41,8 @@ const AppStack = () => {
         options={{headerShown: true}}
       />
       <Stack.Screen
-        name="Hashing"
-        component={Hashing}
+        name="HashingnameScreen"
+        component={HashingnameScreen}
         options={{headerShown: true}}
       />
     </Fragment>

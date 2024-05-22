@@ -1,5 +1,5 @@
-import {FC} from 'react';
-import React, {View} from 'react-native';
+import React, {FC} from 'react';
+import {View} from 'react-native';
 
 interface ISpacer {
   width?: number;
