@@ -27,7 +27,7 @@ module.exports = {
           '@API': './src/API',
           '@redux': './src/redux',
           '@utils': './src/utils',
-          '@models': './src/models',
+          '@models': './src/model',
         },
       },
     ],

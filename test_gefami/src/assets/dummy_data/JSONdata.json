@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "judulBuku": "Pantai dan Kehidupannya",
+      "category": "Non Fiksi"
+    },
+    {
+      "id": 2,
+      "judulBuku": "Negeri 5 Menara",
+      "category": "Novel"
+    },
+    {
+      "id": 3,
+      "judulBuku": "Satwa Terancam Bahaya",
+      "category": "Buku Pengetahuan"
+    },
+    {
+      "id": 4,
+      "judulBuku": "Naruto",
+      "category": "Anime"
+    },
+    {
+      "id": 5,
+      "judulBuku": "Politik Negara Ini",
+      "category": "Politik"
+    }
+  ]
+}
