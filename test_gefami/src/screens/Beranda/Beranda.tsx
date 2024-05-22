@@ -1,7 +1,7 @@
-import {View, Text, Button, StyleSheet} from 'react-native';
-import React, {FC} from 'react';
-import {useBaseNavigation} from '@hooks/useBaseNavigation';
 import {Spacer} from '@components/atoms';
+import {useBaseNavigation} from '@hooks/useBaseNavigation';
+import React, {FC} from 'react';
+import {Button, StyleSheet, Text, View} from 'react-native';
 
 interface IBeranda {}
 
@@ -11,8 +11,7 @@ const Beranda: FC<IBeranda> = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.txt}>Beranda</Text>
-      <Spacer height={20} />
-
+      <Spacer height={10} />
       <Button
         title="SOAL NO.1 & SOAL NO.2"
         onPress={() => navigation.navigate('Home')}
@@ -25,7 +24,7 @@ const Beranda: FC<IBeranda> = () => {
       <Spacer height={20} />
       <Button
         title="SOAL NO.7"
-        onPress={() => navigation.navigate('Hashing')}
+        onPress={() => navigation.navigate('HashingnameScreen')}
       />
       <Spacer height={20} />
       <Button title="SOAL NO.9" onPress={() => navigation.navigate('Login')} />
